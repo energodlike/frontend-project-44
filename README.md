@@ -20,11 +20,12 @@
 * Clone this repository: https://github.com/energodlike/frontend-project-44
 * Add and check dependencies: type *make install* and *npm link* into the command line
 * Launch games: enter *name of the game* on the command line
-- definition of an even number: *brain-even*
-- calculator: *brain-calc*
-- definition of the greatest common divisor: *brain-gcd*
-- progression: *brain-progression*
-- prime number definition: *brain-prime*
+
+	- definition of an even number: *brain-even*
+	- calculator: *brain-calc*
+	- definition of the greatest common divisor: *brain-gcd*
+	- progression: *brain-progression*
+	- prime number definition: *brain-prime*
 
 ## Examples of launching games:
 
