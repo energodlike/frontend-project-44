@@ -36,7 +36,7 @@
 [![asciicast](https://asciinema.org/a/576493.svg)](https://asciinema.org/a/576493)
 ---
 ### "Brain-gcd" Determine the greatest common divisor of two given numbers.
-![asciicast](https://asciinema.org/a/576496.svg)](https://asciinema.org/a/576496)
+[![asciicast](https://asciinema.org/a/576496.svg)](https://asciinema.org/a/576496)
 ---
 ### "Brain-progression" Search for missing numbers in a sequence of numbers.
 [![asciicast](https://asciinema.org/a/577812.svg)](https://asciinema.org/a/577812)
