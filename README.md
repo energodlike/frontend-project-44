@@ -18,7 +18,7 @@
 ## Installation
 
 * Clone this repository: https://github.com/energodlike/frontend-project-44
-* Add and check dependencies: type *'make install'* and *'npm link'* into the command line
+* Add and check dependencies: type 'make install' and 'npm link' into the command line
 * Launch games: enter *name of the game* on the command line
 
 	- definition of an even number: *brain-even*
