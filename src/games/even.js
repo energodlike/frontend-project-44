@@ -3,7 +3,7 @@ import getRandomArbitrary from '../getRandomArbitrary.js';
 
 const isEven = (num) => num % 2 === 0;
 
-const requirement = 'Answer "yes" if number is even, otherwise answer "no".';
+const requirement = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const evenGame = () => {
   const question = getRandomArbitrary(1, 100);
