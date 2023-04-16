@@ -8,9 +8,9 @@ const isPrime = (num) => {
   }
   return num > 1;
 };
-const primeGame = () => {
+const startGame = () => {
   const question = getRandomArbitrary(0, 100);
   const answer = isPrime(question) ? 'yes' : 'no';
   return [question, answer];
 };
-export default () => firstGame(requirement, primeGame);
+export default () => firstGame(requirement, startGame);

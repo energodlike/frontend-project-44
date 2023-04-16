@@ -13,7 +13,7 @@ const getProgression = () => {
   }
   return result;
 };
-const progressionGame = () => {
+const startGame = () => {
   const progression = getProgression();
   const hiddenNumber = getRandomArbitrary(1, 10);
   const answer = String(progression[hiddenNumber]);
@@ -21,4 +21,4 @@ const progressionGame = () => {
   const question = progression.join(' ');
   return [question, answer];
 };
-export default () => firstGame(requirement, progressionGame);
+export default () => firstGame(requirement, startGame);

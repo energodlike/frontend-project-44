@@ -18,7 +18,7 @@ const calculateOperations = (randomOperator, firstOperand, secondOperand) => {
   }
   return String(result);
 };
-const calcGame = () => {
+const startGame = () => {
   const randomOperator = operators[getRandomArbitrary(0, 3)];
   const firstOperand = getRandomArbitrary(0, 10);
   const secondOperand = getRandomArbitrary(0, 10);
@@ -26,4 +26,4 @@ const calcGame = () => {
   const answer = calculateOperations(randomOperator, firstOperand, secondOperand);
   return [question, answer];
 };
-export default () => firstGame(requirement, calcGame);
+export default () => firstGame(requirement, startGame);
