@@ -5,8 +5,9 @@ const requirement = 'What number is missing in the progression?';
 const getProgression = () => {
   let progressionValue = getRandomArbitrary(1, 100);
   const riseOfProgression = getRandomArbitrary(1, 5);
+  const quantityOfNumbers = 10;
   const result = [];
-  for (let i = 0; i < 10; i += 1) {
+  for (let i = 0; i < quantityOfNumbers; i += 1) {
     result.push(progressionValue);
     progressionValue += riseOfProgression;
   }
