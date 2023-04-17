@@ -10,10 +10,10 @@
 
 ## Minimum system requirements:
 
-*Installed Node.js
-*Windows 10 with WSL
-*MacOS 10.14
-*Any current linux distributive
+* Installed Node.js
+* Windows 10 with WSL
+* MacOS 10.14
+* Any current linux distributive
 
 ## Installation
 

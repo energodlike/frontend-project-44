@@ -8,7 +8,7 @@ const gcdOperation = (firstNumber, secondNumber) => {
   }
   return String(gcdOperation(secondNumber, firstNumber % secondNumber));
 };
-const gcdGame = () => {
+const startGame = () => {
   const firstNumber = getRandomArbitrary(1, 100);
   const secondNumber = getRandomArbitrary(1, 100);
   const question = `${firstNumber} ${secondNumber}`;
@@ -16,4 +16,4 @@ const gcdGame = () => {
   return [question, answer];
 };
 
-export default () => firstGame(requirement, gcdGame);
+export default () => firstGame(requirement, startGame);
