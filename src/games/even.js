@@ -3,12 +3,14 @@ import getRandomArbitrary from '../getRandomArbitrary.js';
 
 const isEven = (num) => num % 2 === 0;
 
-const requirement = 'Answer "yes" if the number is even, otherwise answer "no".';
+const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const startGame = () => {
+const generateRound = () => {
   const question = getRandomArbitrary(1, 100);
   const answer = isEven(question) ? 'yes' : 'no';
   return [question, answer];
 };
 
-export default () => firstGame(requirement, startGame);
+const runEvenGame = () => firstGame(rules, generateRound);
+
+export default runEvenGame;
